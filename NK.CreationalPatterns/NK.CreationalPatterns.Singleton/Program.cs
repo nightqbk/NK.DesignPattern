@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NK.CreationalPatterns.FactoryMethod
+namespace NK.CreationalPatterns.Singleton
 {
     class Program
     {

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6A1B493C-B155-41AA-A391-4C9987998FEC}</ProjectGuid>
+    <ProjectGuid>{DBE52429-D0EC-47FF-AEC2-C82DE1AA0D98}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NK.CreationalPatterns.FactoryMethod</RootNamespace>
-    <AssemblyName>NK.CreationalPatterns.FactoryMethod</AssemblyName>
+    <RootNamespace>NK.CreationalPatterns.Singleton</RootNamespace>
+    <AssemblyName>NK.CreationalPatterns.Singleton</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,38 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BigTalkLeiFeng\IFactory.cs" />
-    <Compile Include="BigTalkLeiFeng\LeiFeng.cs" />
-    <Compile Include="BigTalkLeiFeng\Undergraduate.cs" />
-    <Compile Include="BigTalkLeiFeng\UndergraduateFactory.cs" />
-    <Compile Include="BigTalkLeiFeng\Volunteer.cs" />
-    <Compile Include="BigTalkLeiFeng\VolunteerFactory.cs" />
-    <Compile Include="BigTalk\Client_FactoryMethod.cs" />
-    <Compile Include="BigTalk\SubFactory.cs" />
-    <Compile Include="BigTalk\DivFactory.cs" />
-    <Compile Include="BigTalk\MulFactory.cs" />
-    <Compile Include="BigTalk\AddFactory.cs" />
-    <Compile Include="BigTalk\IFactory.cs" />
-    <Compile Include="BigTalk\Operation.cs" />
-    <Compile Include="BigTalk\OperationAdd.cs" />
-    <Compile Include="BigTalk\OperationDiv.cs" />
-    <Compile Include="BigTalk\OperationMul.cs" />
-    <Compile Include="BigTalk\OperationSub.cs" />
+    <Compile Include="LazyLoadSigleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="YanMo\ExportDB.cs" />
-    <Compile Include="YanMo\ExportDbOperate.cs" />
-    <Compile Include="YanMo\ExportFileApi.cs" />
-    <Compile Include="YanMo\ExportOperate.cs" />
-    <Compile Include="YanMo\ExportTextFile.cs" />
-    <Compile Include="YanMo\ExportTxtFileOperate.cs" />
-    <Compile Include="YanMo\SimpleExample.cs" />
-    <Compile Include="YanMo\TestClient.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="SingletonDoubleCheckLocking.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="YanMo\ClassDiagram1.cd" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

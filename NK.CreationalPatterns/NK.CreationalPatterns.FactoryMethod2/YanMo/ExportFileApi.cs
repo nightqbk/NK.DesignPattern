@@ -6,7 +6,6 @@ namespace NK.CreationalPatterns.FactoryMethod.YanMo
 {
     public interface ExportFileApi
     {
-
         bool Export(string data);
     }
 }

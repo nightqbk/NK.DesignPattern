@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="NK.CreationalPatterns.FactoryMethod.YanMo.ExportDB" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YanMo\ExportDB.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NK.CreationalPatterns.FactoryMethod.YanMo.ExportDbOperate">
+    <Position X="0.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YanMo\ExportDbOperate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NK.CreationalPatterns.FactoryMethod.YanMo.ExportOperate">
+    <Position X="2" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YanMo\ExportOperate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NK.CreationalPatterns.FactoryMethod.YanMo.ExportTextFile" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YanMo\ExportTextFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NK.CreationalPatterns.FactoryMethod.YanMo.ExportTxtFileOperate">
+    <Position X="3.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YanMo\ExportTxtFileOperate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NK.CreationalPatterns.FactoryMethod.YanMo.TestClient" Collapsed="true">
+    <Position X="13.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>YanMo\TestClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NK.CreationalPatterns.FactoryMethod.YanMo.ExportFileApi">
+    <Position X="8.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>YanMo\ExportFileApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

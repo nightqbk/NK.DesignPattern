@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NK.CreationalPatterns.FactoryMethod
+namespace NK.CreationalPatterns.FactoryMethod.BigTalk
 {
-    class Program
+    public interface IFactory
     {
-        static void Main(string[] args)
-        {
-        }
+        Operation CreateOperation();
     }
 }

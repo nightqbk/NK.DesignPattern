@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NK.CreationalPatterns.FactoryMethod
+namespace NK.CreationalPatterns.AbstractFactory.YanMo
 {
-    class Program
+    public interface IMainBoard
     {
-        static void Main(string[] args)
-        {
-        }
+        void InstallCUP();
     }
 }

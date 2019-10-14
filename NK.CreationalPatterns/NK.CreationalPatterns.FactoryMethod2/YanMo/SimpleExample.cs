@@ -24,7 +24,7 @@ namespace NK.CreationalPatterns.FactoryMethod.BigTalk
         }
     }
 
-    public class ConcertCreator
+    public class ConcertCreator : Creator
     {
         protected override Product GetProduct()
         {
