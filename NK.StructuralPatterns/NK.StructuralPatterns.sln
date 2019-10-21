@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NK.StructuralPatterns.Facade", "NK.StructuralPatterns.Facade\NK.StructuralPatterns.Facade.csproj", "{889659C7-8EB3-4E4E-9F3A-09FB62107A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NK.StructuralPatterns.Adapter", "NK.StructuralPatterns.Adapter\NK.StructuralPatterns.Adapter.csproj", "{AAB3BA3A-BF19-48A6-BD75-CE552B10F4DA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{889659C7-8EB3-4E4E-9F3A-09FB62107A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889659C7-8EB3-4E4E-9F3A-09FB62107A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889659C7-8EB3-4E4E-9F3A-09FB62107A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889659C7-8EB3-4E4E-9F3A-09FB62107A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB3BA3A-BF19-48A6-BD75-CE552B10F4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB3BA3A-BF19-48A6-BD75-CE552B10F4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB3BA3A-BF19-48A6-BD75-CE552B10F4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB3BA3A-BF19-48A6-BD75-CE552B10F4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

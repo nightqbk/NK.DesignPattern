@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{889659C7-8EB3-4E4E-9F3A-09FB62107A33}</ProjectGuid>
+    <ProjectGuid>{AAB3BA3A-BF19-48A6-BD75-CE552B10F4DA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NK.StructuralPatterns.Facade</RootNamespace>
-    <AssemblyName>NK.StructuralPatterns.Facade</AssemblyName>
+    <RootNamespace>NK.StructuralPatterns.Adapter</RootNamespace>
+    <AssemblyName>NK.StructuralPatterns.Adapter</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,17 +45,20 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="YanMo\Client.cs" />
-    <Compile Include="YanMo\Facade.cs" />
-    <Compile Include="YanMo\IModuleA.cs" />
-    <Compile Include="YanMo\IModuleB.cs" />
-    <Compile Include="YanMo\IModuleC.cs" />
-    <Compile Include="YanMo\ModuleA.cs" />
-    <Compile Include="YanMo\ModuleB.cs" />
-    <Compile Include="YanMo\ModuleC.cs" />
+    <Compile Include="Simple\Adapter.cs" />
+    <Compile Include="Simple\ITarget.cs" />
+    <Compile Include="Simple\Adaptee.cs" />
+    <Compile Include="Simple\TestClient.cs" />
+    <Compile Include="YanMo\FileLogger.cs" />
+    <Compile Include="YanMo\IDbLogger.cs" />
+    <Compile Include="YanMo\IFileLogger.cs" />
+    <Compile Include="YanMo\LogAdapter.cs" />
+    <Compile Include="YanMo\LogModel.cs" />
+    <Compile Include="YanMo\TestClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
